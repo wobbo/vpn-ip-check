@@ -29,11 +29,7 @@ Required:
 * bash
 * curl
 
-Optional:
-
-* speedtest-cli
-
-Install speedtest-cli (optional):
+Install speedtest-cli:
 
 ```bash
 wget https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-aarch64.tgz
