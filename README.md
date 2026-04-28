@@ -36,7 +36,11 @@ Optional:
 Install speedtest-cli (optional):
 
 ```bash
-sudo apt install speedtest-cli
+wget https://install.speedtest.net/app/cli/ookla-speedtest-1.2.0-linux-aarch64.tgz
+tar -xzf ookla-speedtest-1.2.0-linux-aarch64.tgz
+chmod +x speedtest
+sudo mv speedtest /usr/local/bin/
+speedtest --accept-license --accept-gdpr
 ```
 
 ## Usage
