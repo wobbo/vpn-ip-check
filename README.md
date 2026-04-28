@@ -13,7 +13,7 @@ Originally created to quickly confirm VPN status. Later extended with optional s
 * Lightweight and cron-friendly
 * Works on Raspberry Pi, Linux servers and other Debian-based systems
 
-<img width="482" height="466" alt="image" src="https://github.com/user-attachments/assets/3b728c62-b8ad-44dc-9281-d735b1017174" />
+<img width="482" height="466" alt="image" src="https://github.com/user-attachments/assets/c52108a3-b800-4d34-ac2a-7c9111f724ea" />
 
 ## Example use cases
 
