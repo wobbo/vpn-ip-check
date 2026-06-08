@@ -39,12 +39,17 @@ sudo mv speedtest /usr/local/bin/
 speedtest --accept-license --accept-gdpr
 ```
 
+```bash
+sudo apt update
+sudo apt install -y python3 python3-gi gir1.2-gtk-3.0 python3-requests ca-certificates
+```
+
 ## Usage
 
 Run:
 
 ```bash
-bash vpn-ip-check.sh
+python3 ./My-IP-Speedtest.py
 ```
 
 Example cron job (run every 10 minutes):
