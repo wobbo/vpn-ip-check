@@ -55,7 +55,7 @@ python3 ./My-IP-Speedtest.py
 Example cron job (run every 10 minutes):
 
 ```bash
-/full/path/to/vpn-ip-check.sh
+python3 ./full/path/to/vpn-ip-check.sh
 ```
 
 ## Example output
