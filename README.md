@@ -39,9 +39,9 @@ sudo mv speedtest /usr/local/bin/
 speedtest --accept-license --accept-gdpr
 ```
 
+Download My-IP-Speedtest.py
 ```bash
-sudo apt update
-sudo apt install -y python3 python3-gi gir1.2-gtk-3.0 python3-requests ca-certificates
+wget https://github.com/wobbo/vpn-ip-check/raw/refs/heads/main/My-IP-Speedtest.py
 ```
 
 ## Usage
@@ -50,12 +50,6 @@ Run:
 
 ```bash
 python3 ./My-IP-Speedtest.py
-```
-
-Example cron job (run every 10 minutes):
-
-```bash
-python3 ./full/path/to/vpn-ip-check.sh
 ```
 
 ## Example output
